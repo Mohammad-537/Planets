@@ -1,0 +1,223 @@
+/*MOHAMMAD ALDREES*/
+/*Student ID : 22275398*/
+@import url(./script.js);
+@font-face {
+    font-family: Font;
+    src: url(../Gemunu_Libre/GemunuLibre-VariableFont_wght.ttf);
+  }
+*{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    font-family: Font;
+    color: #ffffff;
+}
+body{
+    background-color: #000000;
+    
+}
+.headerMain{
+    /* background-image:url(../img/plant.webp) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: change 90s infinite  ease-in;
+}
+
+.headerMain h1{
+    margin-top: 40vh;
+    text-shadow: 0px 0px 8px #000000;
+}
+.main-nav{
+    padding: 10px 30px ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.main-nav li{
+    margin: 10px 30px;
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none;   
+}
+a{
+    color: #7EC8E3;
+    text-decoration: none;
+    transition: background-color color 0.5s;
+    transition: transform 1.2s,color 1.2s;
+    text-shadow: 0px 0px 8px #333333;
+    display: block;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: #8edbf7;
+    transition: color 1.2s,transform 1.2s;
+    transform: scale(1.5);
+}
+h1{
+    color: white;
+}
+.Welcome{
+    text-align: center;
+    size: 30px;
+}
+.WelcomePlanets{
+    text-align: center;
+    size: 30px;
+    margin-top: 10vh;
+}
+.main-img{
+    height: 100vh;
+    object-fit: cover;
+}
+.mainHead{
+    padding-top: 25vh;
+    text-align: center;
+    font-size: 50px;
+}
+.backGroundSound{
+    display: none;
+}
+.aud{
+    align-self: start;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #000000;
+}
+
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-current-time-display {
+    color: rgb(255, 255, 255);
+}
+audio{
+    background-color: #ffffff;
+    border-radius: 360px;
+    padding: 5px;
+}
+audio::-webkit-media-controls-timeline {
+    background-color: white;
+    border-radius: 200px;
+    padding: 1px; 
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button {
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.s1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.imagePlanets{
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+video{
+    margin-top: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+p{
+    margin-top: 5vh;
+    size: 100px;
+    text-align: center;
+}
+.soundsPlanets{
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 25%;
+    margin-right: 50%;
+    width: 50%;
+}
+
+section .end{
+    background-color: #333333;
+}
+footer {
+    background-color: rgb(20, 20, 20);
+    padding: 50px;
+    font-size: 80%;
+}
+.footer-nav{
+    font-size: 150%;
+    height: 54px;
+    text-align: center;
+    padding: 5px;
+    padding: 10px 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footer-nav li{
+    margin: 10px 30px;
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none;   
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: gold;
+    transition: color 1.2s,transform 1.2s;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(../img/plant.webp);
+    }
+    10%
+    {
+        background-image: url(../img/plant.webp);
+    }
+    20%
+    {
+        background-image: url(../img/PlanetR1.jpg);
+    }
+    30%
+    {
+        background-image: url(../img/PlanetR1.jpg);
+    }
+    40%
+    {
+        background-image: url(../img/PlanetR2.jpg);
+    }
+    50%
+    {
+        background-image: url(../img/PlanetR2.jpg);        
+    }   
+    60%
+    {
+        background-image: url(../img/PlanetR3.jpg);
+    }   
+    70%
+    {
+        background-image: url(../img/PlanetR3.jpg);
+    }
+    80%
+    {
+        background-image: url(../img/PlanetR4.jpg);
+    } 
+    90%
+    {
+        background-image: url(../img/PlanetR4.jpg);
+    }
+    100%
+    {
+        background-image: url(../img/plant.webp);
+    }        
+}
+
+
