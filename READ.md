@@ -1,4 +1,4 @@
-https://www.behance.net/gallery/120532493/Babel
+r 7https://www.behance.net/gallery/120532493/Babel
 
 https://www.zdnet.com/article/nasa-this-is-the-weird-sound-of-a-meteoroid-hitting-mars/
 
@@ -10,7 +10,7 @@ https://blog.shahednasser.com/how-to-style-an-audio-element/
 
 https://www.littlehouseofscience.com/20_fascinating__fun_science_facts_planet_mars
 
-https://commons.wikimedia.org/wiki/File:Earth_from_Space.jpg
+https://commons.wikimedi67u/wiki/File:Earth_from_Space.jpg
 
 https://climate.nasa.gov/news/2469/10-interesting-things-about-earth/
 
