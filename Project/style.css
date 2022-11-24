@@ -39,7 +39,8 @@ body{
     align-items: center;
     justify-content: space-between; 
 }
-.main-nav li{
+.main-nav li,
+.nav-team li{
     margin: 10px 30px;
     list-style-type: none;
     text-align: right;
@@ -172,7 +173,36 @@ footer {
     color: gold;
     transition: color 1.2s,transform 1.2s;
 }
-
+.parent {
+    width: 70%;
+    padding: 20px;
+    background-color: #00116f45;
+    border: #0026ff;
+    border-radius: 10%;
+    border: 5px solid #0026ff;
+    margin-left: 10%;
+    /* margin-right: 50%; */
+  }
+.parent h1,
+.parent h2{
+    text-align: center;
+}
+.nav-team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.child{
+    padding-bottom: 20px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+.info a{
+    font-size: 25px;
+}
 @keyframes change{
     0%
     {
