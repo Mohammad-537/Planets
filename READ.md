@@ -2,21 +2,21 @@
 
 ---
 
-###### NOTE: may work unstable with some browsers and devices
+###### NOTE: May work unstably with some browsers and devices
 
 ###### (such as Safari or phones)
 
-This is a simple project to show our solar system.
+This is a simple project to show our Solar System.
 
-Was made especially for the CS4012 html project.
+It was created specially for the CS4012 html project.
 
-In this file we storing all references that we used.
+In this file we store all references that we used.
 
 ## Structure
 
 ---
 
-The project is divided in 2 parts:
+The project is divided into 2 parts:
 
 1. The `Project` folder contains the source code of the project:
    1. The `style.css` file contains the css code.
@@ -73,7 +73,7 @@ sound: https://youtu.be/IQL53eQ0cNA
 
 information:
 
-1. `put something here`
+1. https://solarsystem.nasa.gov/planets/mercury/overview/ `facts and the overview are taken from this website`
 
 ### venus.html
 
@@ -129,7 +129,7 @@ sound: https://youtu.be/IQL53eQ0cNA
 
 information:
 
-1. `put something here`
+1. https://solarsystem.nasa.gov/planets/saturn/overview/ `facts and the overview are taken from this website`
 
 ### uranus.html
 
@@ -157,7 +157,7 @@ sound: https://youtu.be/IQL53eQ0cNA
 
 information:
 
-1. `put something here`
+1. https://solarsystem.nasa.gov/planets/neptune/overview/ `facts and the overview are taken from this website`
 
 ### style.css
 
