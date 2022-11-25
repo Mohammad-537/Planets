@@ -20,7 +20,6 @@ body{
     
 }
 .headerMain{
-    /* background-image:url(../img/plant.webp) ; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,6 +87,7 @@ h1{
 .aud{
     align-self: start;
 }
+/* I learend how to edit audio style from here : https://blog.shahednasser.com/how-to-style-an-audio-element/ */
 audio::-webkit-media-controls-panel {
     background-color: #000000;
 }
@@ -227,46 +227,57 @@ footer {
 @keyframes change{
     0%
     {
+        /* https://www.reddit.com/r/LV426/comments/sb26ir/i_was_in_need_of_a_new_desktop_wallpaper_so_i/ */
         background-image: url(../img/plant.webp);
     }
     10%
     {
+        /* https://www.reddit.com/r/LV426/comments/sb26ir/i_was_in_need_of_a_new_desktop_wallpaper_so_i/ */
         background-image: url(../img/plant.webp);
     }
     20%
     {
+        /* https://unsplash.com/collections/G-oBWoPXp7c/nasa */
         background-image: url(../img/PlanetR1.jpg);
     }
     30%
     {
+        /* https://unsplash.com/collections/G-oBWoPXp7c/nasa */
         background-image: url(../img/PlanetR1.jpg);
     }
     40%
     {
+        /* https://www.behance.net/gallery/120532493/Babel */
         background-image: url(../img/PlanetR2.jpg);
     }
     50%
     {
+        /* https://www.behance.net/gallery/120532493/Babel */
         background-image: url(../img/PlanetR2.jpg);        
     }   
     60%
     {
+        /* https://www.behance.net/gallery/120532493/Babel */
         background-image: url(../img/PlanetR3.jpg);
     }   
     70%
     {
+        /* https://www.behance.net/gallery/120532493/Babel */
         background-image: url(../img/PlanetR3.jpg);
     }
     80%
     {
+        /* https://www.behance.net/gallery/120532493/Babel */
         background-image: url(../img/PlanetR4.jpg);
     } 
     90%
     {
+        /* https://www.behance.net/gallery/120532493/Babel */
         background-image: url(../img/PlanetR4.jpg);
     }
     100%
     {
+        /* https://www.reddit.com/r/LV426/comments/sb26ir/i_was_in_need_of_a_new_desktop_wallpaper_so_i/ */
         background-image: url(../img/plant.webp);
     }        
 }
